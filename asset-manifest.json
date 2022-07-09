@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DiamondU/static/css/main.d7c04821.css",
+    "main.js": "/DiamondU/static/js/main.2cb3afeb.js",
+    "static/js/787.ec928949.chunk.js": "/DiamondU/static/js/787.ec928949.chunk.js",
+    "static/media/diamond.png": "/DiamondU/static/media/diamond.4d87831d1bb7c685f441.png",
+    "static/media/logo.svg": "/DiamondU/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DiamondU/index.html",
+    "main.d7c04821.css.map": "/DiamondU/static/css/main.d7c04821.css.map",
+    "main.2cb3afeb.js.map": "/DiamondU/static/js/main.2cb3afeb.js.map",
+    "787.ec928949.chunk.js.map": "/DiamondU/static/js/787.ec928949.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7c04821.css",
+    "static/js/main.2cb3afeb.js"
+  ]
+}
