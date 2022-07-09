@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import { IoDiamond } from "react-icons/io5";
+import { IconContext } from "react-icons";
+import { MdCleaningServices } from "react-icons/md";
+import { BiShieldQuarter } from "react-icons/bi";
+import { Link } from "react-router-dom";
+import diamondimg from "./static/diamond.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+      <h1 className='title'>Current Status</h1>  
+      <div style={{ backgroundImage: `url( ${diamondimg} )` }} className='pic'>
+        <h1 className='percent'>100%</h1>
+      </div>
+      <button className='eval'>🔍 Evaluate</button>
+      <div className='bar'>
+        <IconContext.Provider value={{ size: '50px' }}>
+          <Link to="clean"><MdCleaningServices /></Link>
+          <IoDiamond />
+          <Link to="protect"><BiShieldQuarter /></Link>
+        </IconContext.Provider>
+      </div>
     </div>
   );
 }

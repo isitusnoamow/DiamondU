@@ -1,0 +1,28 @@
+.main-clean {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+}
+
+.title-clean {
+    margin-left: 20px;
+}
+  
+.med-clean {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg, rgba(255,152,152,1) 17%, rgba(93,0,0,1) 100%);
+    margin: 0 auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.med-title-clean{
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}

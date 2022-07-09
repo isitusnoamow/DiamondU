@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Clean from './Clean';
+import Protect from './Protect';
 import reportWebVitals from './reportWebVitals';
+import { MemoryRouter, Routes, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MemoryRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="clean" element={<Clean />} />
+        <Route path="protect" element={<Protect />} />
+      </Routes>
+    </MemoryRouter>
   </React.StrictMode>
 );
 

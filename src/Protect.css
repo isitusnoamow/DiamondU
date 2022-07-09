@@ -1,0 +1,23 @@
+.main-protect {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #000000;
+}
+  
+.tab-protect {
+    bottom: 0px;
+    background: rgb(50, 50, 50);
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 30px;
+}
+
+.list-protect {
+    color: white;
+    font-size: 30px;
+}
